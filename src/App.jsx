@@ -127,7 +127,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 align="center" className="heading">
-        Tick Tack Toe Game
+        Juego de Tres en linea
       </h1>
       {winner ? (
         <ResultScreen resetGame={resetGame} winner={winner} />
